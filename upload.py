@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#Made in Bandung ( PasbrigadeZ )
 import requests
 import sys
 from random import choice
