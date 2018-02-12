@@ -6,7 +6,8 @@ try:
 	filenya = sys.argv[2]
 	postfile = sys.argv[3]
 except:
-	print "Gunakan : python upload.py <url> <pathfile> <postfile>"
+	print "Gunakan : python upload.py <url> <path of file> <postfile>"
+	print "Contoh : python upload.py http://example.com/upload.php /root/path/of/file/file.php qqfile"
 	sys.exit(1)
 
 def ectitipi():
